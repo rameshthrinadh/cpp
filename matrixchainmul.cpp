@@ -37,6 +37,7 @@ int main(){
 		cin>>a[j][0];cin>>a[j][1];b[j]=a[j][0];
 	}
 	b[j]=a[j-1][1];
+	
 	for(j=0;j<i+1;j++){
 		cout<<b[j]<<endl;
 	}
